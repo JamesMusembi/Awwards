@@ -50,4 +50,9 @@ CREATE DATABASE awward;
 python3.9 manage.py makemigrations && python3.9 manage.py migrate
 ```
 
+#### Run the app
+```bash
+python3.9 manage.py runserver
+```
+Open [localhost:8000](http://127.0.0.1:8000/)
 

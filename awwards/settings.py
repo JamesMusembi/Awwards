@@ -139,6 +139,10 @@ STATICFILES_DIRS = [
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+
+LOGIN_URL = '/'
+LOGIN_REDIRECT_URL = '/'
+
 cloudinary.config( 
   cloud_name = "makove", 
   api_key = "515347984553444", 

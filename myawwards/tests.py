@@ -1,4 +1,6 @@
 
+from tkinter import Image
+from typing_extensions import Self
 from django.test import TestCase
 from .models import Profile,Projects
 from django.contrib.auth.models import User

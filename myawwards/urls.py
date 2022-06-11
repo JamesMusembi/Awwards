@@ -15,9 +15,9 @@ urlpatterns = [
     path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
     # path('api/profile',views.ProfileList.as_view()),
     # path('api/projects',views.ProjectList.as_view()),
-    # path('projects/<id>/',views.projects,name = 'projects'),
-    # path(r'ratings/', include('star_ratings.urls', namespace='ratings')),
-    # path('rate/<id>/',views.rate,name = 'rate')
+    path('projects/<id>/',views.projects,name = 'projects'),
+    path(r'ratings/', include('star_ratings.urls', namespace='ratings')),
+    path('rate/<id>/',views.rate,name = 'rate')
 
 ]
 

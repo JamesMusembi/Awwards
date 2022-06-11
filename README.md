@@ -35,4 +35,7 @@ MODE='dev'
 DEBUG=True
 DISABLE_COLLECTSTATIC=1
 ```
+#### Install dependancies
+Install dependancies that will create an environment for the app to run
+`pip install -r requirements.txt`
 

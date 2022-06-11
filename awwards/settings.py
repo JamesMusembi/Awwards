@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myawwards',
     'bootstrap3',
+    'cloudinary',
 ]
 
 MIDDLEWARE = [
@@ -136,3 +137,9 @@ STATICFILES_DIRS = [
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+cloudinary.config( 
+  cloud_name = "makove", 
+  api_key = "515347984553444", 
+  api_secret = "tA2UtKniO4JgaSWBBvLT-y3U_2s" 
+)

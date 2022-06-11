@@ -44,3 +44,10 @@ In a new terminal, open the postgresql shell with `psql`.
 ```bash
 CREATE DATABASE awward;
 ```
+
+#### Make and run migrations
+```bash
+python3.9 manage.py makemigrations && python3.9 manage.py migrate
+```
+
+

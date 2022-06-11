@@ -9,3 +9,19 @@ This is a Python Django application similar to Awawards; The application will al
     - Heroku
     - Postgresql
     - Django, Django Rest Framework
+    
+    
+    
+#### Setting up environment variables
+Create a `.env` file and paste paste the following filling where appropriate:
+```
+SECRET_KEY='<Secret_key>'
+NAME='awward'
+USER='<Username>'
+PASSWORD='<password>'
+HOST='localhost'
+MODE='dev'
+DEBUG=True
+DISABLE_COLLECTSTATIC=1
+```
+

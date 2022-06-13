@@ -11,7 +11,7 @@ from django.urls import reverse
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from .models import Profile,Projects,Revieww
-# from .serializer import ProfileSerializer,ProjectSerializer
+from .serializer import ProfileSerializer,ProjectSerializer
 
 # Create your views here.
 def index(request):
@@ -90,13 +90,13 @@ def editprofile(request):
     }
     return render(request, 'editprofile.html', params)
 
-# class ProfileList(APIView):
+class ProfileList(APIView):
     def get(self,request,format = None):
         all_profile = Profile.objects.all()
         serializerdata = ProfileSerializer(all_profile,many = True)
         return Response(serializerdata.data)
 
-# class ProjectList(APIView):
+class ProjectList(APIView):
     def get(self,request,format = None):
         all_projects = Projects.objects.all()
         serializerdata = ProjectSerializer(all_projects,many = True)

@@ -1,5 +1,7 @@
 # Awwards
 
+## API Endpoints
+
 ## Table of content
 1. [Description](#description)
 2. [BDD](#bdd)

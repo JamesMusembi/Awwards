@@ -1,7 +1,8 @@
 # Awwards
 
 ## API Endpoints
- *https://musembiawards.herokuapp.com/api/profile/
+ *https://musembiawards.herokuapp.com/api/profile
+ 
  *https://musembiawards.herokuapp.com/api/projects
 
 ## Table of content

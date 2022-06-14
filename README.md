@@ -1,6 +1,8 @@
 # Awwards
 
 ## API Endpoints
+ *
+ *
 
 ## Table of content
 1. [Description](#description)
